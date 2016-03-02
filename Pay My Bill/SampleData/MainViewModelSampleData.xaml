@@ -1,0 +1,16 @@
+﻿<vm:MainViewModel
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:vm="clr-namespace:Pay_My_Bill.ViewModels"
+    SampleProperty="Sample Text Property Value">
+
+    <vm:MainViewModel.Items>
+        <vm:ItemViewModel ID="0" Title="design one" DueDate="Maecenas praesent accumsan bibendum" />
+        <vm:ItemViewModel ID="1" Title="design two" DueDate="Dictumst eleifend facilisi faucibus" />
+        <vm:ItemViewModel ID="2" Title="design three" DueDate="Habitant inceptos interdum lobortis" />
+        <vm:ItemViewModel ID="3" Title="design four" DueDate="Nascetur pharetra placerat pulvinar" />
+        <vm:ItemViewModel ID="4" Title="design five" DueDate="Sagittis senectus sociosqu suscipit" />
+        <vm:ItemViewModel ID="5" Title="design six" DueDate="Torquent ultrices vehicula volutpat" />
+    </vm:MainViewModel.Items>
+
+</vm:MainViewModel>
